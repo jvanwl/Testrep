@@ -1,6 +1,6 @@
 // static instance for singleton pattern
-static var _instance;
-static function Instance() {
+var _instance = null;
+function Instance() {
     return _instance;
 }
 
@@ -78,6 +78,7 @@ function InitializeGame() {
 }
 
 function Start() {
+    _instance = this;
     Debug.Log("Age of War - GameManager initialized successfully!");
 }
 

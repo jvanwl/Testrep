@@ -1,0 +1,14 @@
+using UnityEditor;
+
+public class BuildScript
+{
+    public static void PerformBuild()
+    {
+        BuildPipeline.BuildPlayer(
+            new[] { "Assets/Scene1.unity" }, // Replace with your scenes
+            "Builds/Linux/MyGame.x86_64",   // Output path
+            BuildTarget.StandaloneLinux64,
+            BuildOptions.None
+        );
+    }
+}

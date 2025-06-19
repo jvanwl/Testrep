@@ -404,6 +404,8 @@ public class SaveSystem : MonoBehaviour
     private async Task ApplyPlayerData(object data)
     {
         // Implementation to apply player data
+        await Task.Yield(); // Ensures the method is truly async
+        return;
     }
 
     private async Task ApplyWorldData(object data)
