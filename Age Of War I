@@ -1,0 +1,13 @@
+/Assets
+  /Scenes
+    MainScene.unity
+  /Scripts
+    GameManager.cs
+    Region.cs
+    Country.cs
+    TurnManager.cs
+    UIManager.cs
+  /Prefabs
+    RegionPrefab.prefab
+  /UI
+    Canvas.prefab
