@@ -1,0 +1,101 @@
+{
+    "graphics": {
+        "quality_levels": ["Low", "Medium", "High"],
+        "default_quality": "Medium",
+        "vsync": true,
+        "target_fps": 60,
+        "resolution": {
+            "width": 1920,
+            "height": 1080,
+            "fullscreen": false
+        }
+    },
+    "audio": {
+        "master_volume": 1.0,
+        "music_volume": 0.7,
+        "sfx_volume": 0.8,
+        "ambient_volume": 0.5
+    },
+    "gameplay": {
+        "difficulty": "normal",
+        "tutorial_enabled": true,
+        "camera": {
+            "movement_speed": 20.0,
+            "zoom_speed": 500.0,
+            "min_height": 10.0,
+            "max_height": 100.0,
+            "edge_scrolling": true
+        }
+    },
+    "resources": {
+        "starting_resources": {
+            "food": 200,
+            "wood": 200,
+            "stone": 100,
+            "gold": 100
+        },
+        "resource_gather_rates": {
+            "food": 1.0,
+            "wood": 1.0,
+            "stone": 0.7,
+            "gold": 0.5
+        }
+    },
+    "units": {
+        "worker": {
+            "cost": {
+                "food": 50
+            },
+            "speed": 5.0,
+            "health": 100,
+            "gather_rate": 1.0
+        },
+        "soldier": {
+            "cost": {
+                "food": 75,
+                "gold": 25
+            },
+            "speed": 4.0,
+            "health": 150,
+            "attack": 10,
+            "defense": 5
+        }
+    },
+    "buildings": {
+        "town_center": {
+            "cost": {
+                "wood": 100,
+                "stone": 50
+            },
+            "health": 1000,
+            "build_time": 30
+        },
+        "barracks": {
+            "cost": {
+                "wood": 150,
+                "gold": 50
+            },
+            "health": 800,
+            "build_time": 45
+        }
+    },
+    "ai": {
+        "difficulty_modifiers": {
+            "easy": {
+                "resource_multiplier": 1.0,
+                "damage_multiplier": 0.8,
+                "health_multiplier": 0.8
+            },
+            "normal": {
+                "resource_multiplier": 1.0,
+                "damage_multiplier": 1.0,
+                "health_multiplier": 1.0
+            },
+            "hard": {
+                "resource_multiplier": 1.2,
+                "damage_multiplier": 1.2,
+                "health_multiplier": 1.2
+            }
+        }
+    }
+}

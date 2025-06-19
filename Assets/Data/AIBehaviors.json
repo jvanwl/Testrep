@@ -1,0 +1,156 @@
+{
+    "ai_behaviors": {
+        "dawn_age": {
+            "survival_behaviors": [
+                {
+                    "id": "food_gathering",
+                    "priority": 10,
+                    "conditions": { "food_level": "below_50" },
+                    "actions": ["gather_berries", "hunt_animals", "fish_waters"]
+                },
+                {
+                    "id": "shelter_building",
+                    "priority": 8,
+                    "conditions": { "population": "above_10" },
+                    "actions": ["build_huts", "find_caves", "create_camps"]
+                }
+            ],
+            "group_behaviors": [
+                {
+                    "id": "tribal_formation",
+                    "priority": 7,
+                    "conditions": { "population": "above_20" },
+                    "actions": ["form_tribes", "establish_leadership", "create_roles"]
+                }
+            ]
+        },
+        "ancient_era": {
+            "settlement_behaviors": [
+                {
+                    "id": "agriculture_development",
+                    "priority": 9,
+                    "conditions": { "terrain": "fertile" },
+                    "actions": ["create_farms", "domesticate_animals", "store_food"]
+                },
+                {
+                    "id": "city_planning",
+                    "priority": 8,
+                    "conditions": { "population": "above_100" },
+                    "actions": ["build_walls", "create_streets", "establish_markets"]
+                }
+            ],
+            "cultural_behaviors": [
+                {
+                    "id": "religious_development",
+                    "priority": 7,
+                    "conditions": { "population": "above_200" },
+                    "actions": ["build_temples", "establish_rituals", "train_priests"]
+                }
+            ]
+        },
+        "classical_era": {
+            "empire_behaviors": [
+                {
+                    "id": "territorial_expansion",
+                    "priority": 9,
+                    "conditions": { "military_strength": "above_500" },
+                    "actions": ["conquer_territories", "establish_colonies", "build_roads"]
+                },
+                {
+                    "id": "administrative_development",
+                    "priority": 8,
+                    "conditions": { "cities": "above_3" },
+                    "actions": ["create_bureaucracy", "establish_laws", "collect_taxes"]
+                }
+            ],
+            "cultural_renaissance": [
+                {
+                    "id": "artistic_development",
+                    "priority": 7,
+                    "conditions": { "wealth": "above_1000" },
+                    "actions": ["build_monuments", "sponsor_artists", "create_literature"]
+                }
+            ]
+        },
+        "medieval_era": {
+            "feudal_behaviors": [
+                {
+                    "id": "castle_building",
+                    "priority": 9,
+                    "conditions": { "threat_level": "high" },
+                    "actions": ["build_castles", "train_knights", "establish_vassals"]
+                },
+                {
+                    "id": "religious_expansion",
+                    "priority": 8,
+                    "conditions": { "faith_level": "high" },
+                    "actions": ["build_cathedrals", "send_missionaries", "establish_monasteries"]
+                }
+            ]
+        },
+        "renaissance_era": {
+            "intellectual_behaviors": [
+                {
+                    "id": "scientific_advancement",
+                    "priority": 9,
+                    "conditions": { "knowledge_level": "high" },
+                    "actions": ["build_universities", "fund_research", "establish_academies"]
+                },
+                {
+                    "id": "artistic_patronage",
+                    "priority": 8,
+                    "conditions": { "wealth": "above_2000" },
+                    "actions": ["commission_art", "build_theaters", "support_inventors"]
+                }
+            ]
+        },
+        "industrial_era": {
+            "modernization_behaviors": [
+                {
+                    "id": "industrialization",
+                    "priority": 10,
+                    "conditions": { "technology_level": "advanced" },
+                    "actions": ["build_factories", "establish_railroads", "create_power_plants"]
+                },
+                {
+                    "id": "urbanization",
+                    "priority": 9,
+                    "conditions": { "population": "above_10000" },
+                    "actions": ["build_apartments", "establish_services", "create_infrastructure"]
+                }
+            ]
+        },
+        "modern_era": {
+            "technological_behaviors": [
+                {
+                    "id": "digital_revolution",
+                    "priority": 10,
+                    "conditions": { "tech_level": "information_age" },
+                    "actions": ["build_networks", "develop_software", "establish_tech_centers"]
+                },
+                {
+                    "id": "global_expansion",
+                    "priority": 9,
+                    "conditions": { "influence": "high" },
+                    "actions": ["establish_trade_networks", "create_alliances", "spread_culture"]
+                }
+            ]
+        },
+        "future_era": {
+            "advanced_behaviors": [
+                {
+                    "id": "space_colonization",
+                    "priority": 10,
+                    "conditions": { "tech_level": "stellar" },
+                    "actions": ["build_space_ports", "establish_colonies", "develop_terraforming"]
+                },
+                {
+                    "id": "technological_singularity",
+                    "priority": 9,
+                    "conditions": { "ai_level": "advanced" },
+                    "actions": ["develop_ai", "merge_consciousness", "transcend_physical"]
+                }
+            ]
+        }
+    }
+}

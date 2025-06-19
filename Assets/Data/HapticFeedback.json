@@ -1,0 +1,33 @@
+{
+  "haptics": {
+    "button_press": {
+      "type": "light",
+      "duration": 0.1
+    },
+    "building_complete": {
+      "type": "medium",
+      "duration": 0.2
+    },
+    "unit_created": {
+      "type": "medium",
+      "duration": 0.15
+    },
+    "battle_impact": {
+      "type": "heavy",
+      "duration": 0.3
+    },
+    "resource_collected": {
+      "type": "light",
+      "duration": 0.05
+    },
+    "error": {
+      "type": "warning",
+      "duration": 0.25
+    },
+    "victory": {
+      "type": "success",
+      "duration": 0.4,
+      "pattern": [0.1, 0.1, 0.3]
+    }
+  }
+}

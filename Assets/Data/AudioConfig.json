@@ -1,0 +1,56 @@
+[
+  {
+    "id": "ui_click",
+    "category": "UI",
+    "file": "Sounds/UI/click.wav",
+    "volume": 0.8,
+    "pitch": 1.0,
+    "loop": false,
+    "priority": 128
+  },
+  {
+    "id": "build_complete",
+    "category": "Buildings",
+    "file": "Sounds/Buildings/complete.wav",
+    "volume": 1.0,
+    "pitch": 1.0,
+    "loop": false,
+    "priority": 120
+  },
+  {
+    "id": "unit_created",
+    "category": "Units",
+    "file": "Sounds/Units/created.wav",
+    "volume": 0.9,
+    "pitch": 1.0,
+    "loop": false,
+    "priority": 120
+  },
+  {
+    "id": "battle_start",
+    "category": "Battle",
+    "file": "Sounds/Battle/start.wav",
+    "volume": 1.0,
+    "pitch": 1.0,
+    "loop": false,
+    "priority": 100
+  },
+  {
+    "id": "victory_fanfare",
+    "category": "Music",
+    "file": "Music/victory.wav",
+    "volume": 0.8,
+    "pitch": 1.0,
+    "loop": false,
+    "priority": 90
+  },
+  {
+    "id": "ambient_city",
+    "category": "Ambient",
+    "file": "Sounds/Ambient/city.wav",
+    "volume": 0.4,
+    "pitch": 1.0,
+    "loop": true,
+    "priority": 50
+  }
+]

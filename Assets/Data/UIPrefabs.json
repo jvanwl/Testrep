@@ -1,0 +1,67 @@
+{
+  "prefabs": {
+    "main_menu": {
+      "path": "Prefabs/UI/MainMenu",
+      "elements": [
+        {
+          "type": "canvas",
+          "resolution": "1920x1080",
+          "scaleMode": "scaleWithScreenSize",
+          "components": [
+            {
+              "type": "button",
+              "id": "start_game",
+              "position": {"x": 960, "y": 600},
+              "size": {"width": 300, "height": 80},
+              "text": "Start Game",
+              "animation": "fade_in"
+            },
+            {
+              "type": "button",
+              "id": "options",
+              "position": {"x": 960, "y": 500},
+              "size": {"width": 300, "height": 80},
+              "text": "Options"
+            }
+          ]
+        }
+      ]
+    },
+    "game_hud": {
+      "path": "Prefabs/UI/GameHUD",
+      "elements": [
+        {
+          "type": "resource_bar",
+          "position": "top",
+          "height": 60
+        },
+        {
+          "type": "minimap",
+          "position": "bottom_right",
+          "size": 200
+        },
+        {
+          "type": "action_panel",
+          "position": "bottom",
+          "height": 120
+        }
+      ]
+    },
+    "diplomacy_screen": {
+      "path": "Prefabs/UI/DiplomacyScreen",
+      "elements": [
+        {
+          "type": "scroll_view",
+          "content": "civilization_list",
+          "position": "left",
+          "width": 300
+        },
+        {
+          "type": "panel",
+          "content": "interaction_panel",
+          "position": "center"
+        }
+      ]
+    }
+  }
+}

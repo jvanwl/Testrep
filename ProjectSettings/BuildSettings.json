@@ -1,0 +1,24 @@
+{
+    "PlayerSettings": {
+        "Android": {
+            "bundleVersionCode": 1,
+            "bundleVersion": "1.0.0",
+            "minSdkVersion": 24,
+            "targetSdkVersion": 33,
+            "buildApkPerCpuArchitecture": true,
+            "enableInternalProfiler": false,
+            "development": false,
+            "il2cpp": {
+                "enable": true,
+                "additionalArgs": "--linker-verbose"
+            }
+        }
+    },
+    "BuildSettings": {
+        "Development": false,
+        "AllowDebugging": false,
+        "Compression": "LZ4",
+        "StripEngineCode": true,
+        "ManagedStrippingLevel": "High"
+    }
+}

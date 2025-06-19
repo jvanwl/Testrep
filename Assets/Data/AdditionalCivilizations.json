@@ -1,0 +1,65 @@
+{
+  "civilizations": [
+    {
+      "id": "ancient_china",
+      "name": "Ancient China",
+      "era": "Ancient",
+      "startYear": -2100,
+      "endYear": -221,
+      "traits": ["Silk Road", "Great Wall", "Bureaucracy"],
+      "specialUnits": [
+        {
+          "id": "chu_ko_nu",
+          "name": "Chu-Ko-Nu",
+          "cost": 120,
+          "strength": 18,
+          "movement": 2,
+          "special": "Rapid Fire"
+        }
+      ],
+      "specialBuildings": [
+        {
+          "id": "great_wall_section",
+          "name": "Great Wall Section",
+          "cost": 200,
+          "defense": 5,
+          "culture": 2
+        }
+      ]
+    },
+    {
+      "id": "mongol_empire",
+      "name": "Mongol Empire",
+      "era": "Medieval",
+      "startYear": 1206,
+      "endYear": 1368,
+      "traits": ["Horse Lords", "Trade Routes", "Vast Empire"],
+      "specialUnits": [
+        {
+          "id": "keshik",
+          "name": "Keshik",
+          "cost": 150,
+          "strength": 25,
+          "movement": 5
+        }
+      ]
+    },
+    {
+      "id": "british_empire",
+      "name": "British Empire",
+      "era": "Industrial",
+      "startYear": 1603,
+      "endYear": 1997,
+      "traits": ["Naval Supremacy", "Industrial Pioneer", "Colonial Power"],
+      "specialUnits": [
+        {
+          "id": "ship_of_the_line",
+          "name": "Ship of the Line",
+          "cost": 200,
+          "strength": 30,
+          "movement": 6
+        }
+      ]
+    }
+  ]
+}

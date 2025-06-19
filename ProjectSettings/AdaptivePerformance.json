@@ -1,0 +1,12 @@
+{
+    "com.unity.adaptiveperformance.samsung.android.provider_settings": {
+        "settings": {
+            "samsungProviderLogging": false
+        }
+    },
+    "com.unity.adaptiveperformance.simulator.provider_settings": {
+        "settings": {
+            "simulatorProviderLogging": false
+        }
+    }
+}

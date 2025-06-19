@@ -1,0 +1,56 @@
+{
+  "in_app_purchases": {
+    "premium_currency": {
+      "small_pack": {
+        "id": "com.game.gems_small",
+        "amount": 100,
+        "price_usd": 0.99,
+        "bonus": 0
+      },
+      "medium_pack": {
+        "id": "com.game.gems_medium",
+        "amount": 500,
+        "price_usd": 4.99,
+        "bonus": 50
+      },
+      "large_pack": {
+        "id": "com.game.gems_large",
+        "amount": 1200,
+        "price_usd": 9.99,
+        "bonus": 200
+      }
+    },
+    "premium_features": {
+      "no_ads": {
+        "id": "com.game.no_ads",
+        "price_usd": 4.99,
+        "description": "Remove all advertisements"
+      },
+      "premium_civilizations": {
+        "id": "com.game.premium_civs",
+        "price_usd": 7.99,
+        "description": "Unlock all premium civilizations"
+      }
+    }
+  },
+  "ad_placements": {
+    "interstitial": {
+      "frequency": 180,
+      "min_level": 3,
+      "triggers": ["end_turn", "battle_complete"]
+    },
+    "rewarded": {
+      "rewards": {
+        "gems": 50,
+        "resources": {
+          "gold": 100,
+          "production": 50
+        }
+      }
+    },
+    "banner": {
+      "position": "bottom",
+      "refresh_rate": 30
+    }
+  }
+}

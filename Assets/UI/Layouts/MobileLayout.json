@@ -1,0 +1,60 @@
+{
+  "layouts": {
+    "main_hud": {
+      "elements": [
+        {
+          "type": "panel",
+          "id": "resources_panel",
+          "position": {"top": 0, "left": 0, "right": 0, "height": 60},
+          "background": "panel_dark",
+          "children": [
+            {
+              "type": "resource_display",
+              "id": "food",
+              "position": {"left": 10, "top": 10, "width": 100, "height": 40},
+              "icon": "food_icon"
+            },
+            {
+              "type": "resource_display",
+              "id": "production",
+              "position": {"left": 120, "top": 10, "width": 100, "height": 40},
+              "icon": "production_icon"
+            },
+            {
+              "type": "resource_display",
+              "id": "gold",
+              "position": {"left": 230, "top": 10, "width": 100, "height": 40},
+              "icon": "gold_icon"
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "id": "action_panel",
+          "position": {"bottom": 0, "left": 0, "right": 0, "height": 120},
+          "background": "panel_dark",
+          "children": [
+            {
+              "type": "button",
+              "id": "build_button",
+              "position": {"left": 10, "bottom": 10, "width": 100, "height": 100},
+              "icon": "build_icon"
+            },
+            {
+              "type": "button",
+              "id": "research_button",
+              "position": {"left": 120, "bottom": 10, "width": 100, "height": 100},
+              "icon": "research_icon"
+            },
+            {
+              "type": "button",
+              "id": "diplomacy_button",
+              "position": {"left": 230, "bottom": 10, "width": 100, "height": 100},
+              "icon": "diplomacy_icon"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

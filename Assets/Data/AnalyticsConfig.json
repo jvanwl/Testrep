@@ -1,0 +1,42 @@
+{
+  "analytics": {
+    "events": {
+      "game_start": {
+        "parameters": ["device_type", "os_version", "game_version"]
+      },
+      "level_complete": {
+        "parameters": ["level_id", "time_taken", "score", "stars_earned"]
+      },
+      "resource_gained": {
+        "parameters": ["resource_type", "amount", "source"]
+      },
+      "purchase_made": {
+        "parameters": ["item_id", "price", "currency", "platform"]
+      },
+      "battle_complete": {
+        "parameters": ["battle_type", "winner", "duration", "units_lost"]
+      }
+    },
+    "custom_dimensions": {
+      "player_type": ["free", "premium"],
+      "difficulty_level": ["easy", "medium", "hard"],
+      "preferred_civilization": "string"
+    },
+    "metrics": {
+      "session_length": {
+        "type": "time",
+        "trigger": "app_close"
+      },
+      "retention_days": {
+        "type": "counter",
+        "trigger": "daily_login"
+      }
+    }
+  },
+  "crash_reporting": {
+    "enabled": true,
+    "include_logs": true,
+    "max_reports_per_session": 3,
+    "automatic_upload": true
+  }
+}

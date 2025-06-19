@@ -1,0 +1,49 @@
+{
+  "cloud_save": {
+    "auto_save": {
+      "enabled": true,
+      "frequency": 300,
+      "max_saves": 5
+    },
+    "data_types": {
+      "player_progress": {
+        "priority": "high",
+        "compression": true,
+        "encryption": true,
+        "fields": [
+          "current_civilization",
+          "resources",
+          "research_progress",
+          "buildings",
+          "units"
+        ]
+      },
+      "settings": {
+        "priority": "medium",
+        "compression": false,
+        "encryption": false,
+        "fields": [
+          "graphics_quality",
+          "sound_volume",
+          "music_volume",
+          "notifications"
+        ]
+      },
+      "statistics": {
+        "priority": "low",
+        "compression": true,
+        "encryption": false,
+        "fields": [
+          "play_time",
+          "battles_won",
+          "resources_collected",
+          "buildings_constructed"
+        ]
+      }
+    },
+    "conflict_resolution": {
+      "strategy": "newest_wins",
+      "merge_statistics": true
+    }
+  }
+}

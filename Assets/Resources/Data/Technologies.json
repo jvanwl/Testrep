@@ -1,0 +1,52 @@
+{
+    "technologies": [
+        {
+            "id": "wheel",
+            "name": "Wheel",
+            "era": "Ancient",
+            "description": "Unlocks basic wheeled units and improves resource transportation",
+            "flavorText": "The invention that set civilization in motion",
+            "prerequisites": [],
+            "cost": {
+                "wood": 50,
+                "stone": 30
+            },
+            "researchTime": 30,
+            "effects": {
+                "resource_gathering": 1.2,
+                "unit_speed": 1.1
+            },
+            "unlocksUnits": ["cart", "chariot"],
+            "unlocksBuildings": ["workshop"],
+            "icon": "wheel_icon"
+        },
+        {
+            "id": "bronze_working",
+            "name": "Bronze Working",
+            "era": "Ancient",
+            "description": "Improves military units and building construction",
+            "flavorText": "The first metal to shape empires",
+            "prerequisites": [],
+            "cost": {
+                "stone": 80,
+                "gold": 40
+            },
+            "researchTime": 45,
+            "effects": {
+                "unit_damage": 1.2,
+                "building_health": 1.15
+            },
+            "unlocksUnits": ["bronze_warrior", "spearman"],
+            "unlocksBuildings": ["forge"],
+            "icon": "bronze_icon"
+        }
+    ],
+    "eras": [
+        "Ancient",
+        "Classical",
+        "Medieval",
+        "Renaissance"
+    ],
+    "version": "1.0",
+    "lastUpdated": "2024-01-20"
+}

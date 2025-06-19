@@ -1,0 +1,80 @@
+{
+  "store_listing": {
+    "title": {
+      "default": "Advanced Civilization Builder",
+      "en-US": "Advanced Civilization Builder",
+      "es": "Constructor de Civilizaciones Avanzadas",
+      "ja": "高度な文明建設"
+    },
+    "short_description": {
+      "default": "Build and evolve your civilization through history!",
+      "max_length": 80
+    },
+    "full_description": {
+      "default": "Create and guide your civilization from ancient times to the modern era in this deep strategy game. Build cities, research technologies, wage wars, and shape your culture in this immersive civilization-building experience.\n\nFeatures:\n- Deep economic system\n- Historical accuracy\n- Cultural evolution\n- Advanced AI civilizations\n- Strategic warfare\n- Rich technology tree\n- Multiple victory conditions\n- Premium content and features",
+      "max_length": 4000
+    },
+    "screenshots": {
+      "phone": {
+        "required": true,
+        "min": 4,
+        "max": 8,
+        "dimensions": {
+          "min_width": 1080,
+          "min_height": 1920
+        }
+      },
+      "tablet": {
+        "required": false,
+        "min": 0,
+        "max": 8,
+        "dimensions": {
+          "min_width": 1920,
+          "min_height": 1080
+        }
+      }
+    }
+  },
+  "content_rating": {
+    "rating_system": "ESRB",
+    "target_rating": "E10+",
+    "contains": {
+      "violence": "mild",
+      "in_app_purchases": true,
+      "ads": true,
+      "user_interaction": true
+    }
+  },
+  "release_track": {
+    "production": {
+      "status": "draft",
+      "rollout_percentage": 100,
+      "version_code": 1
+    },
+    "beta": {
+      "status": "inactive"
+    },
+    "alpha": {
+      "status": "inactive"
+    }
+  },
+  "in_app_products": {
+    "managed_products": [
+      {
+        "id": "no_ads",
+        "price_tier": 4.99,
+        "description": "Remove all advertisements"
+      },
+      {
+        "id": "premium_civilizations",
+        "price_tier": 7.99,
+        "description": "Unlock all premium civilizations"
+      }
+    ],
+    "subscriptions": []
+  },
+  "app_signing": {
+    "use_google_app_signing": true,
+    "keystore_path": "release.keystore"
+  }
+}

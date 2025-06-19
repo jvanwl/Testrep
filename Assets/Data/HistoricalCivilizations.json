@@ -1,0 +1,98 @@
+{
+  "civilizations": [
+    {
+      "id": "ancient_egypt",
+      "name": "Ancient Egypt",
+      "era": "Ancient",
+      "startYear": -3150,
+      "endYear": -30,
+      "traits": [
+        "River Valley Civilization",
+        "Monumental Architecture",
+        "Hieroglyphic Writing"
+      ],
+      "specialUnits": [
+        {
+          "id": "chariot_archer",
+          "name": "Chariot Archer",
+          "cost": 100,
+          "strength": 15,
+          "movement": 4
+        }
+      ],
+      "specialBuildings": [
+        {
+          "id": "pyramid",
+          "name": "Pyramid",
+          "cost": 300,
+          "culture": 5,
+          "faith": 3
+        }
+      ],
+      "technologies": [
+        "Mathematics",
+        "Construction",
+        "Calendar",
+        "Writing"
+      ],
+      "resources": {
+        "starting": {
+          "food": 100,
+          "production": 80,
+          "gold": 50
+        },
+        "bonuses": {
+          "farming": 1.2,
+          "stone_working": 1.3
+        }
+      }
+    },
+    {
+      "id": "roman_empire",
+      "name": "Roman Empire",
+      "era": "Classical",
+      "startYear": -27,
+      "endYear": 476,
+      "traits": [
+        "Legion System",
+        "Road Network",
+        "Republican Government"
+      ],
+      "specialUnits": [
+        {
+          "id": "legion",
+          "name": "Legion",
+          "cost": 120,
+          "strength": 20,
+          "movement": 2
+        }
+      ],
+      "specialBuildings": [
+        {
+          "id": "aqueduct",
+          "name": "Aqueduct",
+          "cost": 250,
+          "health": 4,
+          "happiness": 2
+        }
+      ],
+      "technologies": [
+        "Engineering",
+        "Military Tactics",
+        "Law",
+        "Currency"
+      ],
+      "resources": {
+        "starting": {
+          "food": 80,
+          "production": 100,
+          "gold": 70
+        },
+        "bonuses": {
+          "engineering": 1.3,
+          "military": 1.4
+        }
+      }
+    }
+  ]
+}

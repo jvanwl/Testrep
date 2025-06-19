@@ -1,0 +1,50 @@
+{
+    "language": "en-US",
+    "title": "Advanced Civilization Builder",
+    "short_description": "Build and evolve your civilization through history!",
+    "full_description": "Create and guide your civilization from ancient times to the modern era in this deep strategy game. Build cities, research technologies, wage wars, and shape your culture in this immersive civilization-building experience.\n\nFeatures:\n✓ Deep economic system\n✓ Historical accuracy\n✓ Cultural evolution\n✓ Advanced AI civilizations\n✓ Strategic warfare\n✓ Rich technology tree\n✓ Multiple victory conditions\n✓ Premium content and features\n\nGuide your civilization through the ages:\n• Ancient Era: Master early technologies and establish your first cities\n• Classical Era: Develop culture and expand your empire\n• Medieval Era: Build grand structures and wage epic battles\n• Modern Era: Research advanced technologies and dominate the world\n\nKey Features:\n• Deep Strategic Gameplay\n• Historical Accuracy\n• Beautiful Graphics\n• Intelligent AI\n• Regular Updates\n• Cloud Saves\n• Offline Play\n\nPremium Features:\n• Additional Civilizations\n• Special Units\n• Advanced Tactics\n• No Advertisements\n\nStart your journey through history today!",
+    "video": "",
+    "graphics": {
+        "feature_graphic": "assets/store/feature_graphic.jpg",
+        "icon": "assets/store/icon.png",
+        "screenshots": [
+            "assets/store/screenshots/screenshot1.jpg",
+            "assets/store/screenshots/screenshot2.jpg",
+            "assets/store/screenshots/screenshot3.jpg",
+            "assets/store/screenshots/screenshot4.jpg",
+            "assets/store/screenshots/screenshot5.jpg"
+        ]
+    },
+    "categorization": {
+        "category": "GAME_STRATEGY",
+        "contains_ads": true,
+        "has_in_app_purchases": true,
+        "content_rating": "EVERYONE_10_PLUS",
+        "tags": [
+            "strategy",
+            "civilization",
+            "historical",
+            "building",
+            "multiplayer"
+        ]
+    },
+    "pricing": {
+        "price": "free",
+        "in_app_purchases": {
+            "no_ads": {
+                "price": "$4.99",
+                "description": "Remove all advertisements"
+            },
+            "premium_civilizations": {
+                "price": "$7.99",
+                "description": "Unlock all premium civilizations"
+            }
+        }
+    },
+    "contact_details": {
+        "website": "https://your-game-website.com",
+        "email": "support@your-game-website.com",
+        "phone": "",
+        "privacy_policy": "https://your-game-website.com/privacy"
+    }
+}

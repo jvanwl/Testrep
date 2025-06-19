@@ -1,0 +1,62 @@
+{
+    "prefabs": {
+        "buildings": {
+            "townCenter": {
+                "mesh": "Models/Buildings/TownCenter",
+                "collider": "box",
+                "size": {"x": 4, "y": 3, "z": 4},
+                "resourceCost": {
+                    "wood": 100,
+                    "stone": 50
+                },
+                "buildTime": 30,
+                "health": 1000
+            },
+            "barracks": {
+                "mesh": "Models/Buildings/Barracks",
+                "collider": "box",
+                "size": {"x": 3, "y": 2, "z": 3},
+                "resourceCost": {
+                    "wood": 150,
+                    "gold": 50
+                },
+                "buildTime": 45,
+                "health": 800
+            },
+            "resourceBuilding": {
+                "mesh": "Models/Buildings/ResourceCollector",
+                "collider": "cylinder",
+                "size": {"radius": 1.5, "height": 2},
+                "resourceCost": {
+                    "wood": 75
+                },
+                "buildTime": 20,
+                "health": 400
+            }
+        },
+        "units": {
+            "worker": {
+                "mesh": "Models/Units/Worker",
+                "animator": "Animations/Worker",
+                "collider": "capsule",
+                "speed": 5,
+                "health": 100,
+                "resourceCost": {
+                    "food": 50
+                }
+            },
+            "soldier": {
+                "mesh": "Models/Units/Soldier",
+                "animator": "Animations/Soldier",
+                "collider": "capsule",
+                "speed": 4,
+                "health": 150,
+                "attack": 10,
+                "resourceCost": {
+                    "food": 75,
+                    "gold": 25
+                }
+            }
+        }
+    }
+}

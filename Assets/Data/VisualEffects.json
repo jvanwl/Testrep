@@ -1,0 +1,44 @@
+{
+  "effects": {
+    "building_construction": {
+      "prefab": "VFX/BuildingConstruction",
+      "duration": 2.0,
+      "particleCount": 50,
+      "color": {"r": 0.8, "g": 0.8, "b": 0.2, "a": 1.0},
+      "scale": 1.0,
+      "soundId": "build_complete"
+    },
+    "unit_creation": {
+      "prefab": "VFX/UnitCreation",
+      "duration": 1.5,
+      "particleCount": 30,
+      "color": {"r": 0.2, "g": 0.6, "b": 1.0, "a": 1.0},
+      "scale": 0.8,
+      "soundId": "unit_created"
+    },
+    "resource_gain": {
+      "prefab": "VFX/ResourceGain",
+      "duration": 1.0,
+      "particleCount": 20,
+      "color": {"r": 1.0, "g": 0.8, "b": 0.0, "a": 1.0},
+      "scale": 0.5,
+      "soundId": "ui_click"
+    },
+    "battle": {
+      "prefab": "VFX/Battle",
+      "duration": 3.0,
+      "particleCount": 100,
+      "color": {"r": 1.0, "g": 0.2, "b": 0.2, "a": 1.0},
+      "scale": 1.2,
+      "soundId": "battle_start"
+    },
+    "victory": {
+      "prefab": "VFX/Victory",
+      "duration": 5.0,
+      "particleCount": 200,
+      "color": {"r": 1.0, "g": 0.8, "b": 0.0, "a": 1.0},
+      "scale": 2.0,
+      "soundId": "victory_fanfare"
+    }
+  }
+}

@@ -1,0 +1,166 @@
+{
+    "universe_timeline": {
+        "eras": [
+            {
+                "name": "Dawn Age",
+                "year_range": [-10000, -8000],
+                "events": [
+                    {
+                        "id": "first_settlements",
+                        "name": "First Settlements Emerge",
+                        "description": "Early human settlements form near rivers and fertile valleys",
+                        "ai_behavior_triggers": ["start_building_near_water", "prioritize_food_gathering"]
+                    },
+                    {
+                        "id": "tool_discovery",
+                        "name": "Basic Tool Creation",
+                        "description": "Development of primitive tools and weapons",
+                        "ai_behavior_triggers": ["enable_basic_weapons", "improve_resource_gathering"]
+                    }
+                ],
+                "technology_possibilities": ["fire_making", "stone_tools", "basic_farming"],
+                "ai_consciousness_level": 1
+            },
+            {
+                "name": "Ancient Era",
+                "year_range": [-8000, -3000],
+                "events": [
+                    {
+                        "id": "agriculture_revolution",
+                        "name": "Agricultural Revolution",
+                        "description": "Systematic farming and animal domestication",
+                        "ai_behavior_triggers": ["establish_farms", "create_permanent_settlements"]
+                    },
+                    {
+                        "id": "first_cities",
+                        "name": "Rise of First Cities",
+                        "description": "Formation of organized urban centers",
+                        "ai_behavior_triggers": ["start_urban_planning", "establish_trade_routes"]
+                    }
+                ],
+                "technology_possibilities": ["irrigation", "pottery", "metalworking"],
+                "ai_consciousness_level": 2
+            },
+            {
+                "name": "Classical Era",
+                "year_range": [-3000, 500],
+                "events": [
+                    {
+                        "id": "writing_systems",
+                        "name": "Development of Writing",
+                        "description": "Creation of complex writing systems and record keeping",
+                        "ai_behavior_triggers": ["enable_knowledge_sharing", "start_diplomatic_relations"]
+                    },
+                    {
+                        "id": "empire_building",
+                        "name": "First Empires",
+                        "description": "Formation of large-scale political entities",
+                        "ai_behavior_triggers": ["expand_territory", "develop_military_strategy"]
+                    }
+                ],
+                "technology_possibilities": ["mathematics", "engineering", "astronomy"],
+                "ai_consciousness_level": 3
+            },
+            {
+                "name": "Medieval Era",
+                "year_range": [500, 1500],
+                "events": [
+                    {
+                        "id": "feudal_system",
+                        "name": "Feudal Organization",
+                        "description": "Development of complex social hierarchies",
+                        "ai_behavior_triggers": ["establish_social_classes", "build_fortifications"]
+                    },
+                    {
+                        "id": "religious_influence",
+                        "name": "Religious Development",
+                        "description": "Growing influence of organized religion",
+                        "ai_behavior_triggers": ["build_religious_structures", "spread_cultural_influence"]
+                    }
+                ],
+                "technology_possibilities": ["steel_making", "architecture", "naval_navigation"],
+                "ai_consciousness_level": 4
+            },
+            {
+                "name": "Renaissance Era",
+                "year_range": [1500, 1800],
+                "events": [
+                    {
+                        "id": "scientific_revolution",
+                        "name": "Scientific Revolution",
+                        "description": "Advancement in sciences and arts",
+                        "ai_behavior_triggers": ["prioritize_research", "develop_culture"]
+                    },
+                    {
+                        "id": "exploration_age",
+                        "name": "Age of Exploration",
+                        "description": "Global exploration and trade",
+                        "ai_behavior_triggers": ["explore_map", "establish_global_trade"]
+                    }
+                ],
+                "technology_possibilities": ["printing_press", "gunpowder", "banking"],
+                "ai_consciousness_level": 5
+            },
+            {
+                "name": "Industrial Era",
+                "year_range": [1800, 1945],
+                "events": [
+                    {
+                        "id": "industrial_revolution",
+                        "name": "Industrial Revolution",
+                        "description": "Mechanization and mass production",
+                        "ai_behavior_triggers": ["build_factories", "develop_infrastructure"]
+                    },
+                    {
+                        "id": "mass_warfare",
+                        "name": "Era of Mass Warfare",
+                        "description": "Development of modern military capabilities",
+                        "ai_behavior_triggers": ["modernize_military", "form_alliances"]
+                    }
+                ],
+                "technology_possibilities": ["steam_power", "electricity", "mass_production"],
+                "ai_consciousness_level": 6
+            },
+            {
+                "name": "Modern Era",
+                "year_range": [1945, 2025],
+                "events": [
+                    {
+                        "id": "digital_revolution",
+                        "name": "Digital Revolution",
+                        "description": "Rise of computing and global communication",
+                        "ai_behavior_triggers": ["develop_information_systems", "establish_global_networks"]
+                    },
+                    {
+                        "id": "space_age",
+                        "name": "Space Age",
+                        "description": "Development of space exploration capabilities",
+                        "ai_behavior_triggers": ["research_advanced_technologies", "explore_new_frontiers"]
+                    }
+                ],
+                "technology_possibilities": ["computing", "space_flight", "biotechnology"],
+                "ai_consciousness_level": 7
+            },
+            {
+                "name": "Future Era",
+                "year_range": [2025, 3000],
+                "events": [
+                    {
+                        "id": "ai_singularity",
+                        "name": "AI Singularity",
+                        "description": "Achievement of advanced artificial intelligence",
+                        "ai_behavior_triggers": ["achieve_consciousness", "transcend_physical_limitations"]
+                    },
+                    {
+                        "id": "interstellar_travel",
+                        "name": "Interstellar Expansion",
+                        "description": "Beginning of interstellar colonization",
+                        "ai_behavior_triggers": ["explore_space", "establish_colonies"]
+                    }
+                ],
+                "technology_possibilities": ["quantum_computing", "fusion_power", "interstellar_travel"],
+                "ai_consciousness_level": 8
+            }
+        ]
+    }
+}

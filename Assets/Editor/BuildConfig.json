@@ -1,0 +1,31 @@
+{
+  "keystore": {
+    "path": "civilization-game.keystore",
+    "alias": "civilization_game",
+    "password": "${KEYSTORE_PASSWORD}",
+    "key_password": "${KEY_PASSWORD}"
+  },
+  "signing_config": {
+    "debug": {
+      "keystore": "debug.keystore",
+      "storePassword": "android",
+      "keyAlias": "androiddebugkey",
+      "keyPassword": "android"
+    },
+    "release": {
+      "keystore": "civilization-game.keystore",
+      "storePassword": "${KEYSTORE_PASSWORD}",
+      "keyAlias": "civilization_game",
+      "keyPassword": "${KEY_PASSWORD}",
+      "v1SigningEnabled": true,
+      "v2SigningEnabled": true
+    }
+  },
+  "app_bundle": {
+    "enabled": true,
+    "targetSdkVersion": 33,
+    "minSdkVersion": 24,
+    "versionCode": 1,
+    "versionName": "1.0.0"
+  }
+}
